@@ -73,7 +73,7 @@ useEffect(()=>{
    :""}
 
    {data?
-    data.main.humidity>25&&data.main.humidity<60&&<source src="https://react-uploder.s3.us-east-2.amazonaws.com/lights-13441.mp4" type="video/mp4"/>
+  data.main.humidity<60&&<source src="https://react-uploder.s3.us-east-2.amazonaws.com/lights-13441.mp4" type="video/mp4"/>
    :""}
 
 
